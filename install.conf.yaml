@@ -10,7 +10,10 @@
     ~/.vim: vim
     ~/.bashrc: bashrc
     ~/.vimrc: vimrc
+    ~/.gitconfig: gitconfig
+    ~/.profile: profile
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - [source ~/.bashrc]
   - [echo "optional shell commands put here"]
