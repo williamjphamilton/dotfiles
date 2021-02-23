@@ -7,6 +7,9 @@ Using this utility
 Example 
 [https://github.com/anishathalye/dotfiles](https://github.com/anishathalye/dotfiles)
 
+To clone and automatically run setup: 
+git clone https://github.com/williamjphamilton/dotfiles && cd dotfiles && ./install
+
 in dotfiles have a folder named vim
 
 each vim plugin cloned as a submodule 
